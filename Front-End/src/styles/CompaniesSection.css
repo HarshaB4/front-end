@@ -1,0 +1,36 @@
+.companies-container {
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  background-color: #f9f9f9;
+}
+
+.companies-subtext {
+  font-size: 16px;
+  color: #555;
+  margin-left:60px;
+}
+
+.companies-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company{
+  width: 600px;
+  margin: 0 20px;
+  margin-top:3px;
+  margin-bottom: 50px;
+}
+
+.company-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.company-logo:hover {
+  transform: scale(1.1);
+}
